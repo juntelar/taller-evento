@@ -1,0 +1,3 @@
+function cartel(){
+    alert("HOLA!");
+    }
