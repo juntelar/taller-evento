@@ -2,6 +2,7 @@ function cartel(){
     alert("HOLA!");
 }
 
+
 const boton = document.getElementById("miBoton");
 const div = document.getElementById("miDiv");
 
