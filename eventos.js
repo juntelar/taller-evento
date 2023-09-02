@@ -2,10 +2,14 @@ function cartel(){
     alert("HOLA!");
 }
 
+const boton = document.getElementById("miBoton");
+const div = document.getElementById("miDiv");
 
+boton.addEventListener("click", function(event) {
+    event.stopPropagation(); 
+    cartel(); 
+});
 
-const div= document.getElementById("miDiv")
-div.addEventListener("click",function(event){
-alert("hola soy el div!");
-event.stopPropagation();
-})    
+div.addEventListener("click", function(event) {
+    alert("Hola soy el div!");
+});
